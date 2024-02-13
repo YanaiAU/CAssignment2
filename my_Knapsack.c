@@ -84,8 +84,5 @@ int main(){
         scanf(" %d", &valuesArr[i]);
         scanf(" %d", &weightsArr[i]);
     }
-    printCharArr(namesArr);
-    printArr(valuesArr);
-    printArr(weightsArr);
     Knapsack(weightsArr, valuesArr, selected_bool);
 }
