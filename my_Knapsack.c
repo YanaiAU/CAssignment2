@@ -74,6 +74,7 @@ void Knapsack(int weights[], int values[], int selected_bool[][MAX_WEIGHT+1]) {
         if (i > 0)
             printf(" ");
     }
+    printf("\n");
 }
 
 
